@@ -1,7 +1,4 @@
 class UsersController < ApplicationController
-  before_action :require_logged_in
-  def intro
-  end
 
   def new
   end
